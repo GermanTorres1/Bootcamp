@@ -1,0 +1,13 @@
+.letter-size {
+    font-size: 16px;
+}
+
+.title {
+    color: red;
+    text-align: center;
+}
+
+.video{
+    display: flex;
+    flex-wrap: wrap;
+}
