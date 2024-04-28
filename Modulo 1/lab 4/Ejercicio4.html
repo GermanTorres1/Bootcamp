@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="">
+        <br><br>
+          <label for="email"> Email:</label>
+          <input type="text"  name="email" placeholder="">
+             <br><br>
+             <label for="bio">Bio:</label>
+             <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+             <br><br>
+
+               <label for="genres">choose the list for genres:</label>
+               <input list="genress" id="genres" name="genres">
+               <datalist id="genress">
+                 <option value="men">
+                 <option value="women">
+                 <option value="other">
+               </datalist>
+               <br><br>
+               <fieldset>
+                <legend>browsers:</legend>
+                <label><input type="radio" name="browser" value="Chrome"> Chrome</label>
+                <label><input type="radio" name="browser" value="Firefox"> Firefox</label>
+                <label><input type="radio" name="browser" value="Safari"> Safari</label>
+                <label><input type="radio" name="browser" value="edge"> edge</label>
+                <label><input type="radio" name="browser" value="Opera"> Opera</label>
+            </fieldset>
+              <br> <br>
+              <button type="submit">Enviar</button>
+</body>
+</html>
