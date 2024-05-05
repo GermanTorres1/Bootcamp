@@ -1,0 +1,23 @@
+.container {
+    align-content: center;
+    color: red;
+}
+
+
+.background-row {
+    width: 300px;
+	background-color: rgb(249, 249, 249);
+	border: 2px solid rgb(196, 58, 58);
+	border-radius: 5px;
+	color: #333;
+    margin: 10px;
+    align-items: center;
+}
+
+.background-column {
+    width: 500px;
+	background-color: rgb(200, 209, 235);
+	border: 2px solid white;
+	border-radius: 5px;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+.background-row {
+    width: 300px;
+	background-color: rgb(249, 249, 249);
+	border: 2px solid rgb(196, 58, 58);
+	border-radius: 5px;
+	color: #333;
+    margin: 10px;
+    align-items: center;
+}
